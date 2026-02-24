@@ -1,7 +1,7 @@
 # =====================================================
 # ⚙️ ТОКЕН БОТА (твой, не стримера!)
 # =====================================================
-VK_GROUP_TOKEN = "vk1.a.BnQZA2TGHd8qlwoa2cPFxvIEBwTF7b55YVqOeyuHvlnXDxMuBaX6C1KO56MyEIok9ZcIauawWztl9LrMXV32x8BVGkRFZ5ZdNq2WlAyUdVk-gx9NXIWwAktOIsYH9462KLQBhZmNjpbIbZ5sW2ziT9k4gczrjq1q4jApVCCiFExZDVlVsDObJd4czFYBU0BEwrwkVLxC7c4kmj2bl3oIcA"
+VK_GROUP_TOKEN = "vk1.a.M2NzVybh-yEfXDAM5cS0Yv5TawW50Vf40_7JWXuu2kI7ekAQZ27gAM4drtLQPAhmP1jerRevby_XsaWec7X0efEZkgBv_B-XaGGeJBN-_A4_jKMcsUDrjSkHfar7HTLXOdSR7fEVa8Y8DBbeIN6vAeeqBwx8avNUD8VGutkvCP9T90C5NRj5pEVk_ZJYXB6xJpbfdz4NLKVQyFFDg40W1Q"
 VK_GROUP_ID    = 236231799
 
 CHECK_INTERVAL = 60  # секунд между проверками
