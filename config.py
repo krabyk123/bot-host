@@ -1,42 +1,36 @@
-# ======================================================
-# ⚙️ НАСТРОЙКИ БОТА
-# ======================================================
-
-VK_GROUP_TOKEN = "vk1.a.BnQZA2TGHd8qlwoa2cPFxvIEBwTF7b5SYVqOeyuHv1nXDxMuBaX6C1KO56MyEioK9ZcIauawWztl9LrMXV32x8BVGkRFZ5ZdNq2W1AyUdVk-gx9NXIWwAktOIsYH9462KLQBhZmNjpbIbZ5sW2ziT9k4gczrjq1q4jApVCCiFExZDV1VsDObJd4czFYBU0BEwrwkVLxC7c4kmj2bl3OIcA"
-VK_GROUP_ID    = 236231799  # числовой ID твоей группы-бота
+# =====================================================
+# ⚙️ ТОКЕН БОТА (твой, не стримера!)
+# =====================================================
+VK_GROUP_TOKEN = "vk1.a.BnQZA2TGHd8qlwoa2cPFxvIEBwTF7b55YVqOeyuHvlnXDxMuBaX6C1KO56MyEIok9ZcIauawWztl9LrMXV32x8BVGkRFZ5ZdNq2WlAyUdVk-gx9NXIWwAktOIsYH9462KLQBhZmNjpbIbZ5sW2ziT9k4gczrjq1q4jApVCCiFExZDVlVsDObJd4czFYBU0BEwrwkVLxC7c4kmj2bl3oIcA"
+VK_GROUP_ID    = 236231799
 
 CHECK_INTERVAL = 60  # секунд между проверками
 
-# ======================================================
-# 🎮 СПИСОК СТРИМЕРОВ
-# Добавляй сколько угодно. Если платформы нет — оставь ""
-# ======================================================
-
+# =====================================================
+# 🎮 СТРИМЕРЫ — просто вставляй ссылки!
+# Не нужно: API-ключи, секреты, логины стримеров
+# Если платформы нет — оставь "" (пустые кавычки)
+# =====================================================
 STREAMERS = [
     {
-        "id":           "streamer1",          # уникальный ключ (латиница, без пробелов)
-        "name":         "HARD PLAY",       # отображаемое имя
-        "twitch":       "streamer1_twitch",   # логин на Twitch (или "")
-        "twitch_id":    "YOUR_CLIENT_ID",     # Twitch Client ID
-        "twitch_secret":"YOUR_CLIENT_SECRET", # Twitch Client Secret
-        "youtube_channel_id": "UCxxxxxxx",   # ID YouTube канала (или "")
-        "youtube_api_key":    "YOUR_YT_KEY",  # YouTube API Key
-        "kick":         "streamer1_kick",     # логин на KICK (или "")
-        "vkplay":       "streamer1",          # логин на VK Play Live (или "")
-        "tg_channel":   "streamer1_tg",       # имя TG канала без @ (или "")
-        "vk_group":     -12345678,            # ID группы ВК (отрицательное, или 0)
+        "id":          "hardplay",                 # уникальный ключ (латиница, без пробелов)
+        "name":        "HARD PLAY",                # отображаемое имя в боте
+        "twitch_url":  "https://twitch.tv/hardgamechannel", # Ссылка на Twitch
+        "youtube_url": "https://youtube.com/@hardplayyt", # Ссылка на YouTube
+        "kick_url":    "https://kick.com/hardplayofficial", # Если KICK нет, оставляем пусто
+        "vkplay_url":  "https://live.vkvideo.ru/hardplay", # Ссылка на VK Play
+        "tg_url":      "https://t.me/hplegion",     # Ссылка на Telegram канал
+        "vk_group_url":"https://vk.com/hp_legion",      # Ссылка на VK группу
     },
-    {
-        "id":           "streamer2",
-        "name":         "Стример Два",
-        "twitch":       "streamer2_twitch",
-        "twitch_id":    "YOUR_CLIENT_ID_2",
-        "twitch_secret":"YOUR_CLIENT_SECRET_2",
-        "youtube_channel_id": "",
-        "youtube_api_key":    "",
-        "kick":         "",
-        "vkplay":       "streamer2",
-        "tg_channel":   "streamer2_tg",
-        "vk_group":     -87654321,
-    },
+    # Чтобы добавить второго стримера, раскомментируй (убери #) строки ниже:
+    # {
+    #     "id":          "bulkin",
+    #     "name":        "Булкин",
+    #     "twitch_url":  "",
+    #     "youtube_url": "https://youtube.com/@bulkin",
+    #     "kick_url":    "",
+    #     "vkplay_url":  "",
+    #     "tg_url":      "",
+    #     "vk_group_url": "https://vk.com/bulkin",
+    # },
 ]
